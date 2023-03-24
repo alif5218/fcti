@@ -1,0 +1,99 @@
+
+.container .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: space-around;
+
+}
+
+
+.container .row .col .fctilogo{
+    width: auto;
+    height: 100px;
+
+}
+
+.container .row .col-1 .facebook{
+    width: auto;
+    height: 30px;
+    margin: 20px;
+}
+.container .row .col-2 .youtube{
+    width: auto;
+    height: 30px;
+    margin: 20px;
+}
+.container .row .col-3 .instagram{
+    width: auto;
+    height: 30px;
+    margin: 20px;
+}
+.container .row .col-4 .in{
+    width: auto;
+    height: 30px;
+    margin: 20px;
+}
+.container .row .col-5 .twiter{
+    width: auto;
+    height: 30px;
+    margin: 20px;
+}
+.container .row .col-6 input{
+    background: crimson;
+    color: white;
+    margin: 20px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container .row .col-6 input:hover{
+    color:black;
+}
+.menu{
+    font-size: 40px;
+    text-align: center;
+}
+ul{
+    background: whitesmoke;
+    list-style: none;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 100%;
+    font-size: 22.5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+ul li a:hover{
+    background:crimson;
+}
+.intro ul{
+display: none;
+}
+.intro ul li{
+    float: none;
+}
+.intro:hover ul{
+    display: block;
+}
+.corse ul{
+    display: none;
+
+}
+.corse ul li{
+    float: none;
+
+}
+.corse:hover ul{
+    display: block;
+}
